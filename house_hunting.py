@@ -20,8 +20,8 @@ months = 0
 
 while current_savings < portion_down_payment:
     months += 1
-    current_savings = current_savings + current_savings * r
-    current_savings += monthly_savings
+    current_savings = current_savings + current_savings * r + monthly_savings
+    # current_savings += monthly_savings
 
 print(months)
 
