@@ -10,7 +10,6 @@ monthly_salary = annual_salary / 12
 monthly_savings = monthly_salary * portion_saved
 current_savings = 0
 interest_earned = current_savings * r
-total_month_savings = monthly_savings + interest_earned
 #add together the amount saved and the amount earned from interest for monthly savings total
 
 #print(current_savings)
